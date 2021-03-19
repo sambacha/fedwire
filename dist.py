@@ -5,10 +5,10 @@ import time
 
 
 def zipdir(path, ziph):
-    for root, dirs, files in os.walk(path):
-        if ".git" not in root:
-            for file in files:
-                ziph.write(os.path.join(root, file))
+		for root, dirs, files in os.walk(path):
+				if ".git" not in root:
+						for file in files:
+								ziph.write(os.path.join(root, file))
 
 
 t0 = time.time()
