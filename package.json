@@ -1,0 +1,20 @@
+{
+  "name": "fedwire",
+  "version": "1.0.0",
+  "description": "> ACH/FedWIRE ID's/Routing Tables",
+  "main": "validate_fedwire.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/fedwire.git"
+  },
+  "keywords": ["fedwire", "ach", "federal reserve"],
+  "author": "sam bacha <sam@freighttrust.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sambacha/fedwire/issues"
+  },
+  "homepage": "https://github.com/sambacha/fedwire#readme"
+}
